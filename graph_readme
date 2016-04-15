@@ -1,0 +1,29 @@
+--------------------------------------
+Graph - Shortest Paths and Minimal Spanning Tree 
+--------------------------------------
+
+Author: Yuanyuan Ma
+
+====================================
+What is it?
+====================================
+The Graph class takes in a string and construct 
+a graph object from the string, which looks like 
+
+graph g {
+    "a" -- "b" [ label = "10" ];
+    "b" -- "c" [ label = "20" ];
+}
+
+The Router class takes the graph created in the Graph
+class and get a shortest path route and a valid route 
+of the graph. 
+
+The SpanningTree class takes the graph and gives minimal 
+Spanning Tree from the graph. 
+
+-------------------------------------------------------
+Detailed information on class methods are in the comments within 
+java codes.
+
+
